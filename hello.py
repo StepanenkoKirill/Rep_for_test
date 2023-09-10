@@ -4,4 +4,4 @@ def fun1(counter: int):
     i = 1
     while(i < counter):
         i+=1
-    print(i)
+    print(i + 1)
