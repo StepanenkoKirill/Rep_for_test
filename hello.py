@@ -1,7 +1,15 @@
 
-def fun1(counter: int):
+def fun1():
     print("hello")
     i = 1
-    while(i < counter):
+    while(i < 5):
         i+=1
-    print(i + 1)
+    print(i)
+def fun2(a,b):
+    print(a,b,"To find GCD")
+    while(a != 0 and b != 0):
+        if(a > b):
+            a = a % b
+        else:
+            b = b % a
+    return a + b
