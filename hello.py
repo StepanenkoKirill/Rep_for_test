@@ -6,6 +6,7 @@ def fun1():
         i+=1
     print(i)
 def fun2(a,b):
+    print(a,b,"To find GCD")
     while(a != 0 and b != 0):
         if(a > b):
             a = a % b
