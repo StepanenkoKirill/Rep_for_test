@@ -1,7 +1,7 @@
 
-def fun1():
+def fun1(counter: int):
     print("hello")
     i = 1
-    while(i < 5):
+    while(i < counter):
         i+=1
     print(i)
